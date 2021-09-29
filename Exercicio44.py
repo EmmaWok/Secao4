@@ -1,0 +1,6 @@
+print('Insira abaixo a altura do degrau:')
+degr = int(input())
+print('Insira abaixo a altura que deseja chegar subindo a escada:')
+alt = int(input())
+final = (alt / degr)
+print(f'Voce deverá subir {final} degraus')
